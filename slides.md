@@ -25,7 +25,7 @@ layout: center
 class: text-center
 ---
 
-# 在技術會議上，<br/>大家對流程的理解總不一致，<br/>導致討論卡關嗎？
+# 在跨團隊會議或技術討論中，<br/>是否曾因大家對流程理解不一致，<br/>導致討論常常卡關？
 
 ---
 layout: center
@@ -36,15 +36,10 @@ class: text-center
 
 ---
 layout: center
-class: text-left
+class: text-center
 ---
 
-# 溝通上的痛點
-
-- 複雜概念難以用純文字表達
-- 跨團隊溝通常有理解差異
-- 技術討論效率不高
-- 文件閱讀體驗不佳
+<img src="./images/no.gif" class="h-100" />
 
 ---
 layout: center
@@ -57,6 +52,8 @@ class: text-left
 - 減少溝通誤解
 - 提高會議和討論效率
 - 增強文件可讀性
+
+**善用<span v-mark.orange="1">視覺化工具</span>，正是解決這些痛點的關鍵。**
 
 ---
 layout: section
@@ -286,12 +283,13 @@ h2 {
 <div class="grid grid-cols-3 gap-4">
 <div>
 
-## Draw.io
+## Mermaid
 
-- 需要專業、精確的圖表
-- 有複雜的圖表需求
-- 需要特定類型的圖表 (UML, ER)
-- 需要詳細的系統文件
+- 需要嵌入到 Markdown 中
+- 重視版本控制和文件一致性
+- 頻繁更新的流程或架構
+- 標準化的圖表需求
+- 技術文件和 README
 
 </div>
 <div>
@@ -307,13 +305,12 @@ h2 {
 </div>
 <div>
 
-## Mermaid
+## Draw.io
 
-- 需要嵌入到 Markdown 中
-- 重視版本控制和文件一致性
-- 頻繁更新的流程或架構
-- 標準化的圖表需求
-- 技術文件和 README
+- 需要專業、精確的圖表
+- 有複雜的圖表需求
+- 需要特定類型的圖表 (UML, ER)
+- 需要詳細的系統文件
 
 </div>
 </div>
@@ -347,7 +344,7 @@ class: text-left
 </div>
 </div>
 
-## 馬上動手試試看！
+## 馬上來動手試試看！
 
 ---
 layout: end
