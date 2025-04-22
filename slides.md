@@ -14,7 +14,9 @@ mdc: true
 Terry Lin @MediaTek
 
 ---
+layout: center
+---
 
-## layout: center
+[Slide Repo Link](https://github.com/terry623/visual-communication-introduction)
 
-[Slide Repo Link](https://github.com/terry623/slidev-template)
+
