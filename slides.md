@@ -1,7 +1,7 @@
 ---
 theme: seriph
 background: https://cover.sli.dev
-title: Welcome to Slidev
+title: Visual Communication Introdiction
 class: text-center
 drawings:
   persist: false
