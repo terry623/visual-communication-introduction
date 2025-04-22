@@ -15,6 +15,27 @@ Terry Lin @MediaTek
 
 ---
 layout: center
+class: text-center
+---
+
+# 解釋複雜架構時，是不是常覺得<br/>「一張圖勝過千言萬語」，<br/>但畫圖又很花時間？
+
+---
+layout: center
+class: text-center
+---
+
+# 在技術會議上，<br/>大家對流程的理解總不一致，<br/>導致討論卡關嗎？
+
+---
+layout: center
+class: text-center
+---
+
+# 面對落落長的技術文件，<br/>很難快速掌握核心架構和流程？
+
+---
+layout: center
 class: text-left
 ---
 
