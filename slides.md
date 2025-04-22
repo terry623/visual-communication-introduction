@@ -53,7 +53,7 @@ class: text-left
 - 提高會議和討論效率
 - 增強文件可讀性
 
-**善用<span v-mark.orange="1">視覺化工具</span>，正是解決這些痛點的關鍵。**
+**善用<span v-mark.orange="1">視覺化工具</span>，正是解決痛點的關鍵！**
 
 ---
 layout: section
