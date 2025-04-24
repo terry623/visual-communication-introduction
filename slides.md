@@ -44,7 +44,7 @@ layout: center
 class: text-center
 ---
 
-# 面對落落長的技術文件，<br/>是否覺得很難快速掌握<br/>核心架構和流程？
+# 面對落落長的技術文件，<br/>是否覺得很難快速<br/>掌握核心架構和流程？
 
 <style>
 h1 {
@@ -257,7 +257,7 @@ layout: center
 # Mermaid × AI：強強聯手
 
 - 透過 Mermaid 能讓 AI 更精確理解每個流程、節點與決策點
-- 以流程圖形式表達，可消除傳統 Markdown、JSON、XML 容易產生的歧義
+- 以流程圖形式表達，可消除傳統 Markdown、JSON 容易產生的歧義
 - 對 AI 而言，Mermaid 流程圖就像一張精確「地圖」，提升理解與生成品質
 - AI 能更容易拆解複雜需求，協助生成更有結構與條理的回答
 - 工程師可請 AI 直接產生流程圖，再去微調細節，高效、省時
@@ -269,7 +269,7 @@ layout: center
 # Mermaid 使用方式
 
 - 可直接在 Markdown 文件中編寫
-    - 但能不能看到圖要看有無支援 render
+    - 能否看到圖要看工具有無支援 render
 - 圖表編輯器：[Mermaid Chart](https://www.mermaidchart.com/)
 - VS Code 擴充：[Markdown Mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 - 命令行工具：[mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
