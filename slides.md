@@ -88,19 +88,19 @@ layout: center
 # Mermaid 是什麼？
 
 - 用程式碼生成圖表的神器
-- 支援流程圖、狀態圖、序列圖、甘特圖等
+- 支援流程圖、時序圖、類別圖等
 - 純文字格式，易於版本控制
 - 無需繪圖技巧，專注內容本身
 - GitHub、Gitea、Notion、Obsidian 等工具原生支援
 
 ---
-layout: center
----
 
-<div class="grid grid-cols-2 gap-6 place-items-center">
+# FlowChart
+
+<div class="grid grid-cols-2 place-items-center h-100">
 <div>
 ```
-graph TD
+flowchart TD
     A[開始] --> B{是否有錯誤?}
     B -->|是| C[修復錯誤]
     C --> B
@@ -109,7 +109,7 @@ graph TD
 </div>
 <div>
 ```mermaid
-graph TD
+flowchart TD
     A[開始] --> B{是否有錯誤?}
     B -->|是| C[修復錯誤]
     C --> B
@@ -119,28 +119,138 @@ graph TD
 </div>
 
 ---
+
+# Sequence Diagram
+
+<div class="grid grid-cols-2 place-items-center h-100">
+<div>
+```
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop 健康檢查
+        John->>John: 與疑病症對抗
+    end
+    Note right of John: 理性思考！
+    John-->>Alice: 很好！
+    John->>Bob: 你呢？
+    Bob-->>John: 很棒！
+```
+</div>
+<div>
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop 健康檢查
+        John->>John: 與疑病症對抗
+    end
+    Note right of John: 理性思考！
+    John-->>Alice: 很好！
+    John->>Bob: 你呢？
+    Bob-->>John: 很棒！
+```
+</div>
+</div>
+
+---
+
+# Class Diagram
+
+<div class="grid grid-cols-2 place-items-center h-100">
+<div>
+```
+classDiagram
+    Animal <|--|> Zebra
+    Class01 <|-- AveryLongClass : 繼承
+    Class03 *-- Class04 : 組合
+    Class05 o-- Class06 : 聚合
+    Class07 .. Class08 : 關聯
+    Class09 --> C2 : 依賴
+    Class07 : equals()
+    Class01 : int size
+```
+</div>
+<div>
+```mermaid
+classDiagram
+    Animal <|--|> Zebra
+    Class01 <|-- AveryLongClass : 繼承
+    Class03 *-- Class04 : 組合
+    Class05 o-- Class06 : 聚合
+    Class07 .. Class08 : 關聯
+    Class09 --> C2 : 依賴
+    Class07 : equals()
+    Class01 : int size
+```
+</div>
+</div>
+
+---
+
+# State Diagram
+
+<div class="grid grid-cols-2 place-items-center h-100">
+<div>
+```
+stateDiagram-v2
+    [*] --> 空閒
+    空閒 --> 處理中 : 收到請求
+    處理中 --> 完成 : 處理成功
+    處理中 --> 錯誤 : 處理失敗
+    完成 --> [*]
+    錯誤 --> [*]
+```
+</div>
+<div>
+```mermaid
+stateDiagram-v2
+    [*] --> 空閒
+    空閒 --> 處理中 : 收到請求
+    處理中 --> 完成 : 處理成功
+    處理中 --> 錯誤 : 處理失敗
+    完成 --> [*]
+    錯誤 --> [*]
+```
+</div>
+</div>
+
+---
+
+# ER Diagram
+
+<div class="grid grid-cols-2 place-items-center h-100">
+<div>
+```
+erDiagram
+    CUSTOMER ||--o{ ORDER : 下單
+    ORDER ||--|{ LINE_ITEM : 包含
+    CUSTOMER }|..|{ DELIVERY_ADDRESS : 使用
+```
+</div>
+<div>
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : 下單
+    ORDER ||--|{ LINE_ITEM : 包含
+    CUSTOMER }|..|{ DELIVERY_ADDRESS : 使用
+```
+</div>
+</div>
+
+---
 layout: center
 ---
 
-# Mermaid × AI：強強聯手，提升溝通
+# Mermaid × AI：強強聯手
 
 - Mermaid 是 AI 溝通的「正式語言」，每個流程、節點、決策點都明確定義
 - 以流程圖形式表達，可消除傳統 Markdown、JSON、XML 容易產生的歧義
 - 對 AI 而言，Mermaid 流程圖就像一張精確「地圖」，提升理解與生成品質
 - 社群經驗：Claude 等 AI 對 Mermaid 支援極佳，遠勝傳統格式
 - 工程師可請 AI 直接產生流程圖，再微調細節，高效、省時
-
----
-layout: center
----
-
-# Mermaid 應用場景
-
-- 技術文件、README
-- 流程圖、決策樹
-- API 呼叫序列圖
-- 狀態圖、專案時程（甘特圖）
-- 類圖（簡化 UML）
 
 ---
 layout: center
