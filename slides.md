@@ -270,7 +270,7 @@ layout: center
 
 - 可直接在 Markdown 文件中編寫
     - 但能不能看到圖要看有無支援 render
-- 線上編輯平台：[Mermaid Chart](https://www.mermaidchart.com/)
+- 圖表編輯器：[Mermaid Chart](https://www.mermaidchart.com/)
 - VS Code 擴充：[Markdown Mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 - 命令行工具：[mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
 - 支援導出 PNG、SVG 等格式
