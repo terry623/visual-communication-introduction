@@ -1,7 +1,7 @@
 ---
 theme: seriph
 background: https://cover.sli.dev
-title: Visual Communication Introdiction
+title: Visual Communication Introduction
 class: text-center
 drawings:
   persist: false
@@ -44,7 +44,7 @@ layout: center
 class: text-center
 ---
 
-# 面對落落長的技術文件，<br/>很難快速掌握核心架構和流程？
+# 面對落落長的技術文件，<br/>是否覺得很難快速掌握核心架構和流程？
 
 <style>
 h1 {
@@ -91,11 +91,13 @@ layout: center
 - 支援流程圖、時序圖、類別圖等
 - 純文字格式，易於版本控制
 - 無需繪圖技巧，專注內容本身
-- GitHub、Gitea、Notion、Obsidian 等工具原生支援
+- GitHub、Gitea、Obsidian 等工具原生支援
 
 ---
 
 # FlowChart
+
+流程圖用來描述流程、決策與步驟之間的順序關係，適合表達程式邏輯、業務流程等。
 
 <div class="grid grid-cols-2 place-items-center h-100">
 <div>
@@ -121,6 +123,8 @@ flowchart TD
 ---
 
 # Sequence Diagram
+
+時序圖用來描述多個角色（物件、系統）之間的互動順序，適合表達通訊流程、API 呼叫等。
 
 <div class="grid grid-cols-2 place-items-center h-100">
 <div>
@@ -159,6 +163,8 @@ sequenceDiagram
 
 # Class Diagram
 
+類別圖用來描述系統中的類別、屬性、方法及其之間的繼承、組合、關聯等關係，常用於物件導向設計。
+
 <div class="grid grid-cols-2 place-items-center h-100">
 <div>
 ```
@@ -192,6 +198,8 @@ classDiagram
 
 # State Diagram
 
+狀態圖用來描述物件或系統在不同狀態間的轉換，適合表達流程控制、狀態機等。
+
 <div class="grid grid-cols-2 place-items-center h-100">
 <div>
 ```
@@ -221,6 +229,8 @@ stateDiagram-v2
 
 # ER Diagram
 
+ER 圖用來描述資料庫中的實體、屬性及實體間的關聯，適合資料庫設計。
+
 <div class="grid grid-cols-2 place-items-center h-100">
 <div>
 ```
@@ -246,11 +256,11 @@ layout: center
 
 # Mermaid × AI：強強聯手
 
-- Mermaid 是 AI 溝通的「正式語言」，每個流程、節點、決策點都明確定義
+- 透過 Mermaid 能讓 AI 更精確理解每個流程、節點與決策點
 - 以流程圖形式表達，可消除傳統 Markdown、JSON、XML 容易產生的歧義
 - 對 AI 而言，Mermaid 流程圖就像一張精確「地圖」，提升理解與生成品質
-- 社群經驗：Claude 等 AI 對 Mermaid 支援極佳，遠勝傳統格式
-- 工程師可請 AI 直接產生流程圖，再微調細節，高效、省時
+- AI 能更容易拆解複雜需求，協助生成更有結構與條理的回答
+- 工程師可請 AI 直接產生流程圖，再去微調細節，高效、省時
 
 ---
 layout: center
@@ -258,8 +268,9 @@ layout: center
 
 # Mermaid 使用方式
 
-- 直接在 Markdown 文件中編寫
-- 線上編輯器：[Mermaid Live Editor](https://mermaid.live/)
+- 可直接在 Markdown 文件中編寫
+    - 但能不能看到圖要看有無支援 render
+- 線上編輯器：[Mermaid Chart](https://www.mermaidchart.com/)
 - VS Code 擴充：[Markdown Mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 - 命令行工具：[mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
 - 支援導出 PNG、SVG 等格式
