@@ -261,6 +261,7 @@ layout: center
 - 對 AI 而言，Mermaid 流程圖就像一張精確「地圖」，提升理解與生成品質
 - AI 能更容易拆解複雜需求，協助生成更有結構與條理的回答
 - 工程師可請 AI 直接產生流程圖，再去微調細節，高效、省時
+- 案例：[Cline](https://github.com/cline/cline)、[DeepWiki](https://deepwiki.com/)、[GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram)
 
 ---
 layout: center
